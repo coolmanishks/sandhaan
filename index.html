@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sandhaan17|Cooming soon...</title>
+		<meta name="description" content="Sandhaan game" />
+		<meta name="keywords" content="three.js, webgl, tutorial, game, 3d, animation, airplane, web development, javascript,sandhaan,model club,bit sindri,reistration,workshop,svg, morph, snap.svg, effect, animation, css, shape" />
+		<meta name="author" content="Manish kumar singh" />
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/game.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo1.css" />
+		<link rel="stylesheet" type="text/css" href="css/dropdown.css" />
+		<script src="js/snap.svg-min.js"></script>
+		<script type="text/javascript" src="js/TweenMax.min.js"></script>
+		<script type="text/javascript" src="js/three.min.js"></script>
+		<script type="text/javascript" src="js/game.js" ></script>
+		<!--[if IE]>
+		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+			<div class="header">
+                <div class="mergelogo">
+		<img id="logo1" src="img/white.png" alt="bit logo" height="13%" width="05%" />
+        <img id="logo2" src="img/white2.png" alt="model logo" height="12%" width="06%" /></div>
+				<h1><span>Model Club's</span>SANDHAAN'17</h1>
+				<h2>Sharpen Thy Arrow</h2>
+                <h2 id="coming" >Coming soon</h2>
+				<div class="score" id="score">
+					<div class="score__content" id="level">
+						<div class="score__label">level</div>
+						<div class="score__value score__value--level" id="levelValue">1</div>
+						<svg class="level-circle" id="levelCircle" viewbox="0 0 200 200">
+							<circle id="levelCircleBgr" r="80" cx="100" cy="100" fill="none" stroke="#d1b790" stroke-width="24px" />
+							<circle id="levelCircleStroke" r="80" cx="100" cy="100" fill="none" #f25346 stroke="#68c3c0" stroke-width="14px" stroke-dasharray="502" />
+						</svg>
+					</div>
+					<div class="score__content" id="dist">
+						<div class="score__label">distance</div>
+						<div class="score__value score__value--dist" id="distValue">000</div>
+					</div>
+					<div class="score__content" id="energy">
+						<div class="score__label">energy</div>
+						<div class="score__value score__value--energy" id="energyValue">
+							<div class="energy-bar" id="energyBar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="world" id="world">
+        
+			<div class="message message--replay" id="replayMessage">Click to Replay</div>
+			<div class="message message--instructions" id="instructions"><span>Grab the blue pills</span><span>avoid the red ones</span>
+                <h5>Powered by:-</h5>
+            <img id="mw" src="img/mw.png" alt="milesweblogo" height="5%" width="8%">
+                 <ul>
+                <li>Designed by</li>
+                <li>Manish kumar singh</li></ul></div>
+        </div>
+	</body>
+</html>
